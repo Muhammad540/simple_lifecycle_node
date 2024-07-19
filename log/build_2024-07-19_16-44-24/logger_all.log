@@ -1,0 +1,253 @@
+[0.967s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.967s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f898000b250>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8980e0c850>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8980e0c850>>)
+[1.015s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.015s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.015s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.015s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.015s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.015s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.015s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/libgelistirici/practice/ros2_ws'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/lifecycle_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/lifecycle_bringup) by extension 'ignore'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/lifecycle_bringup) by extension 'ignore_ament_install'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/lifecycle_bringup) by extensions ['colcon_pkg']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/lifecycle_bringup) by extension 'colcon_pkg'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/lifecycle_bringup) by extensions ['colcon_meta']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/lifecycle_bringup) by extension 'colcon_meta'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/lifecycle_bringup) by extensions ['ros']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/lifecycle_bringup) by extension 'ros'
+[1.033s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lifecycle_bringup' with type 'ros.ament_cmake' and name 'lifecycle_bringup'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/lifecycle_cpp) by extensions ['ignore', 'ignore_ament_install']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/lifecycle_cpp) by extension 'ignore'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/lifecycle_cpp) by extension 'ignore_ament_install'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/lifecycle_cpp) by extensions ['colcon_pkg']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/lifecycle_cpp) by extension 'colcon_pkg'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/lifecycle_cpp) by extensions ['colcon_meta']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/lifecycle_cpp) by extension 'colcon_meta'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/lifecycle_cpp) by extensions ['ros']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/lifecycle_cpp) by extension 'ros'
+[1.035s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lifecycle_cpp' with type 'ros.ament_cmake' and name 'lifecycle_cpp'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/lifecycle_py) by extensions ['ignore', 'ignore_ament_install']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/lifecycle_py) by extension 'ignore'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/lifecycle_py) by extension 'ignore_ament_install'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/lifecycle_py) by extensions ['colcon_pkg']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/lifecycle_py) by extension 'colcon_pkg'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/lifecycle_py) by extensions ['colcon_meta']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/lifecycle_py) by extension 'colcon_meta'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/lifecycle_py) by extensions ['ros']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/lifecycle_py) by extension 'ros'
+[1.036s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lifecycle_py' with type 'ros.ament_python' and name 'lifecycle_py'
+[1.036s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.036s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.036s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.036s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.036s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.158s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/libgelistirici/practice/ros2_ws/install
+[1.174s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 406 installed packages in /opt/ros/humble
+[1.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_cpp' build argument 'cmake_args' from command line to 'None'
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_cpp' build argument 'cmake_target' from command line to 'None'
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.282s] DEBUG:colcon.colcon_core.verb:Building package 'lifecycle_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/libgelistirici/practice/ros2_ws/build/lifecycle_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp', 'merge_install': False, 'path': '/home/libgelistirici/practice/ros2_ws/src/lifecycle_cpp', 'symlink_install': False, 'test_result_base': None}
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_py' build argument 'cmake_args' from command line to 'None'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_py' build argument 'cmake_target' from command line to 'None'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_py' build argument 'cmake_clean_cache' from command line to 'False'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_py' build argument 'cmake_clean_first' from command line to 'False'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_py' build argument 'cmake_force_configure' from command line to 'False'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_py' build argument 'ament_cmake_args' from command line to 'None'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_py' build argument 'catkin_cmake_args' from command line to 'None'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.296s] DEBUG:colcon.colcon_core.verb:Building package 'lifecycle_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/libgelistirici/practice/ros2_ws/build/lifecycle_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/libgelistirici/practice/ros2_ws/install/lifecycle_py', 'merge_install': False, 'path': '/home/libgelistirici/practice/ros2_ws/src/lifecycle_py', 'symlink_install': False, 'test_result_base': None}
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_bringup' build argument 'cmake_args' from command line to 'None'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_bringup' build argument 'cmake_target' from command line to 'None'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'lifecycle_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.312s] DEBUG:colcon.colcon_core.verb:Building package 'lifecycle_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/libgelistirici/practice/ros2_ws/build/lifecycle_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup', 'merge_install': False, 'path': '/home/libgelistirici/practice/ros2_ws/src/lifecycle_bringup', 'symlink_install': False, 'test_result_base': None}
+[1.326s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.341s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.341s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/libgelistirici/practice/ros2_ws/src/lifecycle_py' with build type 'ament_python'
+[1.341s] Level 1:colcon.colcon_core.shell:create_environment_hook('lifecycle_py', 'ament_prefix_path')
+[1.360s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/libgelistirici/practice/ros2_ws/install/lifecycle_py/share/lifecycle_py/hook/ament_prefix_path.ps1'
+[1.360s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/libgelistirici/practice/ros2_ws/install/lifecycle_py/share/lifecycle_py/hook/ament_prefix_path.dsv'
+[1.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/libgelistirici/practice/ros2_ws/install/lifecycle_py/share/lifecycle_py/hook/ament_prefix_path.sh'
+[1.376s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.376s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.422s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/libgelistirici/practice/ros2_ws/src/lifecycle_cpp' with build type 'ament_cmake'
+[1.422s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/libgelistirici/practice/ros2_ws/src/lifecycle_cpp'
+[1.437s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.437s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.720s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/libgelistirici/practice/ros2_ws/src/lifecycle_py'
+[1.734s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.734s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/libgelistirici/practice/ros2_ws/build/lifecycle_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/libgelistirici/practice/ros2_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/libgelistirici/practice/ros2_ws/build/lifecycle_cpp -- -j16 -l16
+[1.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/libgelistirici/practice/ros2_ws/build/lifecycle_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/libgelistirici/practice/ros2_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/libgelistirici/practice/ros2_ws/build/lifecycle_cpp -- -j16 -l16
+[1.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/libgelistirici/practice/ros2_ws/build/lifecycle_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/libgelistirici/practice/ros2_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --install /home/libgelistirici/practice/ros2_ws/build/lifecycle_cpp
+[1.871s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lifecycle_cpp)
+[1.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/libgelistirici/practice/ros2_ws/build/lifecycle_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/libgelistirici/practice/ros2_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --install /home/libgelistirici/practice/ros2_ws/build/lifecycle_cpp
+[1.891s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp' for CMake module files
+[1.891s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp' for CMake config files
+[1.891s] Level 1:colcon.colcon_core.shell:create_environment_hook('lifecycle_cpp', 'cmake_prefix_path')
+[1.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/hook/cmake_prefix_path.ps1'
+[1.906s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/hook/cmake_prefix_path.dsv'
+[1.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/hook/cmake_prefix_path.sh'
+[1.907s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/lib'
+[1.907s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/bin'
+[1.907s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/lib/pkgconfig/lifecycle_cpp.pc'
+[1.907s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/lib/python3.10/site-packages'
+[1.907s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/bin'
+[1.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/package.ps1'
+[1.922s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/package.dsv'
+[1.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/package.sh'
+[1.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/package.bash'
+[1.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/package.zsh'
+[1.924s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/share/colcon-core/packages/lifecycle_cpp)
+[1.956s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lifecycle_cpp)
+[1.970s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp' for CMake module files
+[1.970s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp' for CMake config files
+[1.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('lifecycle_cpp', 'cmake_prefix_path')
+[1.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/hook/cmake_prefix_path.ps1'
+[1.986s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/hook/cmake_prefix_path.dsv'
+[1.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/hook/cmake_prefix_path.sh'
+[1.987s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/lib'
+[1.987s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/bin'
+[1.987s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/lib/pkgconfig/lifecycle_cpp.pc'
+[1.987s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/lib/python3.10/site-packages'
+[1.987s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/bin'
+[2.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/package.ps1'
+[2.002s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/package.dsv'
+[2.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/package.sh'
+[2.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/package.bash'
+[2.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/share/lifecycle_cpp/package.zsh'
+[2.003s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp/share/colcon-core/packages/lifecycle_cpp)
+[2.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/libgelistirici/practice/ros2_ws/src/lifecycle_py': PYTHONPATH=/home/libgelistirici/practice/ros2_ws/build/lifecycle_py/prefix_override:/home/libgelistirici/practice/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lifecycle_py build --build-base /home/libgelistirici/practice/ros2_ws/build/lifecycle_py/build install --record /home/libgelistirici/practice/ros2_ws/build/lifecycle_py/install.log --single-version-externally-managed
+[2.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/libgelistirici/practice/ros2_ws/src/lifecycle_py' returned '0': PYTHONPATH=/home/libgelistirici/practice/ros2_ws/build/lifecycle_py/prefix_override:/home/libgelistirici/practice/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lifecycle_py build --build-base /home/libgelistirici/practice/ros2_ws/build/lifecycle_py/build install --record /home/libgelistirici/practice/ros2_ws/build/lifecycle_py/install.log --single-version-externally-managed
+[2.444s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_py' for CMake module files
+[2.444s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_py' for CMake config files
+[2.445s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_py/lib'
+[2.445s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_py/bin'
+[2.445s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_py/lib/pkgconfig/lifecycle_py.pc'
+[2.445s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages'
+[2.445s] Level 1:colcon.colcon_core.shell:create_environment_hook('lifecycle_py', 'pythonpath')
+[2.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/libgelistirici/practice/ros2_ws/install/lifecycle_py/share/lifecycle_py/hook/pythonpath.ps1'
+[2.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/libgelistirici/practice/ros2_ws/install/lifecycle_py/share/lifecycle_py/hook/pythonpath.dsv'
+[2.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/libgelistirici/practice/ros2_ws/install/lifecycle_py/share/lifecycle_py/hook/pythonpath.sh'
+[2.461s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_py/bin'
+[2.461s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lifecycle_py)
+[2.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/libgelistirici/practice/ros2_ws/install/lifecycle_py/share/lifecycle_py/package.ps1'
+[2.477s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/libgelistirici/practice/ros2_ws/install/lifecycle_py/share/lifecycle_py/package.dsv'
+[2.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/libgelistirici/practice/ros2_ws/install/lifecycle_py/share/lifecycle_py/package.sh'
+[2.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/libgelistirici/practice/ros2_ws/install/lifecycle_py/share/lifecycle_py/package.bash'
+[2.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/libgelistirici/practice/ros2_ws/install/lifecycle_py/share/lifecycle_py/package.zsh'
+[2.478s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/libgelistirici/practice/ros2_ws/install/lifecycle_py/share/colcon-core/packages/lifecycle_py)
+[2.478s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/libgelistirici/practice/ros2_ws/src/lifecycle_bringup' with build type 'ament_cmake'
+[2.478s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/libgelistirici/practice/ros2_ws/src/lifecycle_bringup'
+[2.493s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.493s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/libgelistirici/practice/ros2_ws/build/lifecycle_bringup': AMENT_PREFIX_PATH=/home/libgelistirici/practice/ros2_ws/install/lifecycle_py:/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup:/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/libgelistirici/practice/ros2_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/libgelistirici/practice/ros2_ws/build/lifecycle_bringup -- -j16 -l16
+[2.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/libgelistirici/practice/ros2_ws/build/lifecycle_bringup' returned '0': AMENT_PREFIX_PATH=/home/libgelistirici/practice/ros2_ws/install/lifecycle_py:/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup:/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/libgelistirici/practice/ros2_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --build /home/libgelistirici/practice/ros2_ws/build/lifecycle_bringup -- -j16 -l16
+[2.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/libgelistirici/practice/ros2_ws/build/lifecycle_bringup': AMENT_PREFIX_PATH=/home/libgelistirici/practice/ros2_ws/install/lifecycle_py:/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup:/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/libgelistirici/practice/ros2_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --install /home/libgelistirici/practice/ros2_ws/build/lifecycle_bringup
+[2.597s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lifecycle_bringup)
+[2.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/libgelistirici/practice/ros2_ws/build/lifecycle_bringup' returned '0': AMENT_PREFIX_PATH=/home/libgelistirici/practice/ros2_ws/install/lifecycle_py:/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup:/home/libgelistirici/practice/ros2_ws/install/lifecycle_cpp:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/libgelistirici/practice/ros2_ws/install/lifecycle_py:/opt/ros/humble /usr/bin/cmake --install /home/libgelistirici/practice/ros2_ws/build/lifecycle_bringup
+[2.614s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup' for CMake module files
+[2.615s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup' for CMake config files
+[2.615s] Level 1:colcon.colcon_core.shell:create_environment_hook('lifecycle_bringup', 'cmake_prefix_path')
+[2.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup/share/lifecycle_bringup/hook/cmake_prefix_path.ps1'
+[2.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup/share/lifecycle_bringup/hook/cmake_prefix_path.dsv'
+[2.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup/share/lifecycle_bringup/hook/cmake_prefix_path.sh'
+[2.635s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup/bin'
+[2.635s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup/lib/pkgconfig/lifecycle_bringup.pc'
+[2.635s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup/lib/python3.10/site-packages'
+[2.635s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup/bin'
+[2.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup/share/lifecycle_bringup/package.ps1'
+[2.655s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup/share/lifecycle_bringup/package.dsv'
+[2.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup/share/lifecycle_bringup/package.sh'
+[2.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup/share/lifecycle_bringup/package.bash'
+[2.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup/share/lifecycle_bringup/package.zsh'
+[2.656s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup/share/colcon-core/packages/lifecycle_bringup)
+[2.690s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lifecycle_bringup)
+[2.705s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup' for CMake module files
+[2.705s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup' for CMake config files
+[2.706s] Level 1:colcon.colcon_core.shell:create_environment_hook('lifecycle_bringup', 'cmake_prefix_path')
+[2.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup/share/lifecycle_bringup/hook/cmake_prefix_path.ps1'
+[2.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup/share/lifecycle_bringup/hook/cmake_prefix_path.dsv'
+[2.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup/share/lifecycle_bringup/hook/cmake_prefix_path.sh'
+[2.722s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup/bin'
+[2.722s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup/lib/pkgconfig/lifecycle_bringup.pc'
+[2.723s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup/lib/python3.10/site-packages'
+[2.723s] Level 1:colcon.colcon_core.environment:checking '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup/bin'
+[2.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup/share/lifecycle_bringup/package.ps1'
+[2.739s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup/share/lifecycle_bringup/package.dsv'
+[2.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup/share/lifecycle_bringup/package.sh'
+[2.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup/share/lifecycle_bringup/package.bash'
+[2.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup/share/lifecycle_bringup/package.zsh'
+[2.741s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/libgelistirici/practice/ros2_ws/install/lifecycle_bringup/share/colcon-core/packages/lifecycle_bringup)
+[2.741s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.741s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.741s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.742s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.771s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.772s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.772s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.782s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.802s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/libgelistirici/practice/ros2_ws/install/local_setup.ps1'
+[2.803s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/libgelistirici/practice/ros2_ws/install/_local_setup_util_ps1.py'
+[2.804s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/libgelistirici/practice/ros2_ws/install/setup.ps1'
+[2.824s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/libgelistirici/practice/ros2_ws/install/local_setup.sh'
+[2.825s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/libgelistirici/practice/ros2_ws/install/_local_setup_util_sh.py'
+[2.825s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/libgelistirici/practice/ros2_ws/install/setup.sh'
+[2.845s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/libgelistirici/practice/ros2_ws/install/local_setup.bash'
+[2.845s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/libgelistirici/practice/ros2_ws/install/setup.bash'
+[2.862s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/libgelistirici/practice/ros2_ws/install/local_setup.zsh'
+[2.862s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/libgelistirici/practice/ros2_ws/install/setup.zsh'

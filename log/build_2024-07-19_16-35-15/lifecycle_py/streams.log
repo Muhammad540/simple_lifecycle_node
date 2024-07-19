@@ -1,0 +1,27 @@
+[0.779s] Invoking command in '/home/libgelistirici/practice/ros2_ws/src/lifecycle_py': PYTHONPATH=/home/libgelistirici/practice/ros2_ws/build/lifecycle_py/prefix_override:/home/libgelistirici/practice/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lifecycle_py build --build-base /home/libgelistirici/practice/ros2_ws/build/lifecycle_py/build install --record /home/libgelistirici/practice/ros2_ws/build/lifecycle_py/install.log --single-version-externally-managed
+[1.008s] running egg_info
+[1.009s] writing ../../build/lifecycle_py/lifecycle_py.egg-info/PKG-INFO
+[1.009s] writing dependency_links to ../../build/lifecycle_py/lifecycle_py.egg-info/dependency_links.txt
+[1.009s] writing entry points to ../../build/lifecycle_py/lifecycle_py.egg-info/entry_points.txt
+[1.009s] writing requirements to ../../build/lifecycle_py/lifecycle_py.egg-info/requires.txt
+[1.009s] writing top-level names to ../../build/lifecycle_py/lifecycle_py.egg-info/top_level.txt
+[1.011s] reading manifest file '../../build/lifecycle_py/lifecycle_py.egg-info/SOURCES.txt'
+[1.011s] writing manifest file '../../build/lifecycle_py/lifecycle_py.egg-info/SOURCES.txt'
+[1.011s] running build
+[1.011s] running build_py
+[1.012s] copying lifecycle_py/lifecycle_node_manager.py -> /home/libgelistirici/practice/ros2_ws/build/lifecycle_py/build/lib/lifecycle_py
+[1.012s] running install
+[1.012s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.012s]   warnings.warn(
+[1.012s] running install_lib
+[1.012s] copying /home/libgelistirici/practice/ros2_ws/build/lifecycle_py/build/lib/lifecycle_py/lifecycle_node_manager.py -> /home/libgelistirici/practice/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py
+[1.013s] byte-compiling /home/libgelistirici/practice/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py/lifecycle_node_manager.py to lifecycle_node_manager.cpython-310.pyc
+[1.014s] running install_data
+[1.014s] running install_egg_info
+[1.015s] removing '/home/libgelistirici/practice/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py-0.0.0-py3.10.egg-info' (and everything under it)
+[1.016s] Copying ../../build/lifecycle_py/lifecycle_py.egg-info to /home/libgelistirici/practice/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages/lifecycle_py-0.0.0-py3.10.egg-info
+[1.016s] running install_scripts
+[1.033s] Installing lifecycle_node_manager script to /home/libgelistirici/practice/ros2_ws/install/lifecycle_py/lib/lifecycle_py
+[1.034s] Installing number_publisher script to /home/libgelistirici/practice/ros2_ws/install/lifecycle_py/lib/lifecycle_py
+[1.034s] writing list of installed files to '/home/libgelistirici/practice/ros2_ws/build/lifecycle_py/install.log'
+[1.057s] Invoked command in '/home/libgelistirici/practice/ros2_ws/src/lifecycle_py' returned '0': PYTHONPATH=/home/libgelistirici/practice/ros2_ws/build/lifecycle_py/prefix_override:/home/libgelistirici/practice/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lifecycle_py build --build-base /home/libgelistirici/practice/ros2_ws/build/lifecycle_py/build install --record /home/libgelistirici/practice/ros2_ws/build/lifecycle_py/install.log --single-version-externally-managed
